@@ -32,10 +32,10 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Jo
 
 
         """
-    mainButton = "About"
-    mainButtonRef = "about" # Just write the name or slug of the page here
-    secondButton = "contact"
-    secondButtonRef = "contact" # Just write the name or slug of the page here
+    mainButton = "Schedule"
+    mainButtonRef = "schedule" # Just write the name or slug of the page here
+    secondButton = "Payment"
+    secondButtonRef = "pay" # Just write the name or slug of the page here
     thirdButton = "Gym"
     thirdButtonRef = "office" # Just write the name or slug of the page here
 
@@ -48,7 +48,7 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Jo
 
 [params.pay]
   title = "QR payments"
-  img = "![payments image](/img/business/payqr.webp)"
+  img = "/img/business/payqr.webp"
 [params.schedule]
   title = "Schedule"
   link = "https://docs.google.com/document/d/e/2PACX-1vQ3lwNiuc_5e1r8HLogb5ESiX0rWtwFEFSGipfecuG9UtzoBpztYX8K0ITbdhyOYulDs1aTOAF7WANp/pub?embedded=true"
@@ -151,14 +151,14 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Jo
   pageRef = "/"
   weight = 1
   [[menus.main]]
-  name = "About"
-  pageRef = "pages/services"
+  name = "Schedule"
+  pageRef = "pages/schedule"
   weight = 2
   [[menus.main]]
-  name = "The Gym"
-  pageRef = "pages/office"
+  name = "Gym"
+  pageRef = "pages/gym"
   weight = 3
   [[menus.main]]
-  name = "contact"
-  pageRef = "pages/contact"
+  name = "Pay"
+  pageRef = "pages/pay"
   weight = 4
