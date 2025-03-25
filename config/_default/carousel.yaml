@@ -1,0 +1,9 @@
+images: 
+  - image: /assets/img/view/000.webp
+    content_html: "1"
+  - image: /assets/img/view/001.webp
+    content_html: "2"
+  - image: /assets/img/view/002.webp
+    content_html: "3"
+  - image: /assets/img/view/004.webp
+    content_html: "4"
