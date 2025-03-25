@@ -37,14 +37,14 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Jo
     secondButton = "Payment"
     secondButtonRef = "pay" # Just write the name or slug of the page here
     thirdButton = "Gym"
-    thirdButtonRef = "office" # Just write the name or slug of the page here
+    thirdButtonRef = "gym" # Just write the name or slug of the page here
 
-[params.office]
+[params.gym]
   title = "The Gym"
- description = "This page can be easily customized by adding a google maps link to get directions towards your activity location."
- buttonText = "Get directions" 
- buttonLink = "https://maps.app.goo.gl/Z2eMtUBifExJ8hMWA" # google maps "share" link here (for button)
- mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.54107879864!2d98.93744747700042!3d18.729353382405243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3103aa9d5fb7%3A0xe6c7f949519d09c9!2sLazy%20Leopard%20BJJ%20and%20MMA!5e0!3m2!1sen!2sth!4v1742807775211!5m2!1sen!2sth' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'" # google maps "embed" link here
+  description = "a google maps link to get directions towards your activity location."
+  buttonText = "Get directions" 
+  buttonLink = "https://maps.app.goo.gl/Z2eMtUBifExJ8hMWA" # google maps "share" link here (for button)
+  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.54107879864!2d98.93744747700042!3d18.729353382405243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3103aa9d5fb7%3A0xe6c7f949519d09c9!2sLazy%20Leopard%20BJJ%20and%20MMA!5e0!3m2!1sen!2sth!4v1742807775211!5m2!1sen!2sth' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'" # google maps "embed" link here
 
 [params.pay]
   title = "QR payments"
@@ -109,10 +109,10 @@ Coach Greg is a black belt in Brazilian Jiu Jitsu, and trains under Professor Jo
       # You can add other socials here by copypasting the above section and
       # selecting the right name for the icon from here https://icons.getbootstrap.com/
 
-[params.schedules] # Time schedules (eg. your office openming hours)
+[params.schedules] # Time schedules (eg. your gym openming hours)
   enabledFooter = false # This will add the schedules on the footer too
   enabledcontact = true # This will add the schedule to the contact page
-  title = "Office hours" # For contact page only
+  title = "gym hours" # For contact page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
   # if left empty it is disabled (default)
