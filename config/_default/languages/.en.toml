@@ -1,7 +1,7 @@
 disabled = false
 languageCode = 'en-US'
 languageName = 'English'
-title = 'Magnolia' # This will go in the Header as well
+title = 'Lazy Leopard BJJ and MMA' # This will go in the Header as well
 copyright = """Designed with [Hugo](https://gohugo.io/) by [Ludovico Caluori](https://github.com/ololiuhqui) 🎨 \n
  Licensed under [MIT license](https://github.com/ololiuhqui/magnolia-free-hugo-theme/blob/main/LICENSE.md) 📄""" # Please leave this here to give me and the tools i used some credit for the work, or BuyMeACoffee and change or remove the copyrightlink below :)
 contentDir = "content/en"
@@ -16,7 +16,7 @@ contentDir = "content/en"
     # in individual pages frontmatters `/content/<page>`
     ###
     preTitle = 'Free Hugo theme'
-    title = "Magnolia"
+    title = "Lazy Leopard"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
 ### "Freedom makes us better humans, and makes us improve our status as a collective race faster."
@@ -42,8 +42,8 @@ Look at what this theme is capable to do on the features page, and see a beautif
   title = "The Office"
  description = "This page can be easily customized by adding a google maps link to get directions towards your activity location."
  buttonText = "Get directions" 
- buttonLink = "https://maps.app.goo.gl/LzsPzRkTYSZ8SF3y8" # google maps "share" link here (for button)
- mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382266.44569392945!2d-76.55832397784323!3d41.53770983690751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4d93a77484bbb%3A0xfff27920ab9bfae8!2sScranton%2C%20Pennsylvania%2C%20Stati%20Uniti!5e0!3m2!1sit!2sit!4v1716459350324!5m2!1sit!2sit" # google maps "embed" link here
+ buttonLink = "https://maps.app.goo.gl/Z2eMtUBifExJ8hMWA" # google maps "share" link here (for button)
+ mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778.54107879864!2d98.93744747700042!3d18.729353382405243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3103aa9d5fb7%3A0xe6c7f949519d09c9!2sLazy%20Leopard%20BJJ%20and%20MMA!5e0!3m2!1sen!2sth!4v1742807775211!5m2!1sen!2sth' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'" # google maps "embed" link here
 
 [params.contacts]
   title = "Get in touch!"
